@@ -1,0 +1,5 @@
+CREATE INDEX gps_txn_token_idx ON test.GpsTransactions (Token) STRING
+CREATE INDEX gps_txn_translink_idx ON test.GpsTransactions (TransLink) STRING
+CREATE INDEX gps_txn_authcodede38_idx ON test.GpsTransactions (Auth_Code_DE38) STRING
+CREATE INDEX gps_txn_retrefnode37_idx ON test.GpsTransactions (Ret_Ref_NoDE37) STRING
+CREATE INDEX gps_account_cardpan_idx ON test.GpsAccounts (CardPan) STRING
